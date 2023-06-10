@@ -1,0 +1,29 @@
+# Site settings
+title: My GitHub Page
+description: Welcome to my GitHub Page
+theme: jekyll-theme-cayman
+
+# GitHub Pages specific settings
+remote_theme: "jekyll/jekyll-theme"
+permalink: /:title
+
+# Exclude files from being processed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+
+# Customize the behavior of Jekyll
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
+
+# Build settings
+collections:
+  my_collection:
+    output: true
+
+# GitHub metadata
+repository: your-username/your-repo
